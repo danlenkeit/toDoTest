@@ -7,8 +7,9 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 3.6.0'
 gem 'sdoc', '~> 0.4.1', group: :doc
+gem 'guard' , '2.14.0'
 
 group :test do
   gem 'minitest-reporters', '1.1.0'
